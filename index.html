@@ -370,10 +370,31 @@ I am a student of Southeast University. My batch is 54. My student id is 2020000
     </div>
     <div class="carousel-item">
       <img src="Slide 1 - Copy.png" class="d-block w-100" alt="...">
-      
+
     </div>
   </div>
 </div>
+
+<hr>
+<h1 class="text-center">Close</h1>
+<button type="button" class="btn-close" aria-label="Close"></button>
+
+<button type="button" class="btn-close" disabled aria-label="Close"></button>
+
+<button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+<button type="button" class="btn-close btn-close-white" disabled aria-label="Close"></button>
+
+<hr>
+<h1 class="text-center">Collapse</h1>
+<p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"  aria-expanded="false" aria-controls="collapseExample">Link with href</a>
+    <button class="btn by=btn-primary" type="button" data-bs-toggle="collapse" data-bs-toggle="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Button with data-bs-target</button>
+</p>
+<div class="collapse" id="collapseExample">
+    <div class="Card card-body">
+        Some placeholder content for the collapse component.
+    </div>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 
